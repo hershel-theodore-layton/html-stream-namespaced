@@ -1,0 +1,1 @@
+/** html-stream-namespaced is MIT licensed, see repo root for LICENSE file */

@@ -1,3 +1,4 @@
+/** html-stream-namespaced is MIT licensed, see repo root for LICENSE file */
 namespace HTL\HTMLStream;
 
 use type Facebook\HackTest\HackTest;

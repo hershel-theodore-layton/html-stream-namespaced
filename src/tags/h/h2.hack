@@ -1,7 +1,8 @@
+// html-stream-namespaced is MIT licensed, see /LICENSE.
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<2cd2f778979d48861e7a20d9fd3b5d13>>
+ * @generated SignedSource<<6f84c096c7eb6ea20280e8c49284032f>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
