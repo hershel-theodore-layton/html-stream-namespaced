@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<1f0f40deb4d1cf5a0248bb281d14ceff>>
+ * @generated SignedSource<<30ffab1e96afe75a4d7b730249c0534d>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-dl-element
  */
 final xhp class dl extends SGMLStream\RootElement {
-  protected string $tagName = 'dl';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'dl';
 }

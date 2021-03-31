@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f6f4c4b7cadcf90e8606336b6e63bd91>>
+ * @generated SignedSource<<2e452cabbfffa69b24bbe2475c058720>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-small-element
  */
 final xhp class small extends SGMLStream\RootElement {
-  protected string $tagName = 'small';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'small';
 }

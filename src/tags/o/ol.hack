@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<66c1826cecc50d23f5eef41f4352c8c6>>
+ * @generated SignedSource<<3665fb25bbdff6ca3a8873247dd9b0db>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -11,10 +11,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-ol-element
  */
 final xhp class ol extends SGMLStream\RootElement {
-  protected string $tagName = 'ol';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-ol-reversed
@@ -28,4 +27,6 @@ final xhp class ol extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#attr-ol-type
      */
     enum {'1', 'a', 'A', 'i', 'I'} type;
+
+  protected string $tagName = 'ol';
 }

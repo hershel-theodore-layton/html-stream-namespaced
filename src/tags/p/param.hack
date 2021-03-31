@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<22ac68844ef2bbd6bfb9e34ea12a604a>>
+ * @generated SignedSource<<118d13b8e56d047a2f1398aab7c9415b>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,10 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-param-element
  */
 final xhp class param extends SGMLStream\RootElement {
-  protected string $tagName = 'param';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-param-name
@@ -26,4 +25,6 @@ final xhp class param extends SGMLStream\RootElement {
      * Any text is allowed.
      */
     string value;
+
+  protected string $tagName = 'param';
 }

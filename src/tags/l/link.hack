@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<405b113380487060f80da1df1a989ae3>>
+ * @generated SignedSource<<d59612764c999756727471ce07d2321b>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -11,15 +11,14 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-link-element
  */
 final xhp class link extends SGMLStream\RootElement {
-  protected string $tagName = 'link';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-link-as
-     * Common values are: "script" and "style". See https://fetch.spec.whatwg.org/#concept-request-destination for more
-     * information.
+     * Common values are: "script" and "style". See
+     * https://fetch.spec.whatwg.org/#concept-request-destination for more information.
      */
     string as,
     /**
@@ -47,31 +46,44 @@ final xhp class link extends SGMLStream\RootElement {
     string hreflang,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-link-imagesizes
-     * Complex syntax requirement, see https://html.spec.whatwg.org/multipage/images.html#sizes-attribute.
+     * Complex syntax requirement, see
+     * https://html.spec.whatwg.org/multipage/images.html#sizes-attribute.
      */
     string imagesizes,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-link-imagesrcset
-     * Any number of image candidate strings. See https://html.spec.whatwg.org/multipage/images.html#srcset-attribute for more
+     * Any number of image candidate strings. See
+     * https://html.spec.whatwg.org/multipage/images.html#srcset-attribute for more
      * information.
      */
     string imagesrcset,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-link-integrity
      * Commonly a hash algorithm a "-" and a base64 encoded value of the hash. See
-     * https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-attribute for more information.
+     * https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-attribute for
+     * more information.
      */
     string integrity,
     /**
      * @see https://html.spec.whatwg.org/multipage/semantics.html#attr-link-media
-     * A valid media query list. See https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-media-query-list
-     * for more information.
+     * A valid media query list. See
+     * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-media-query-list for more information.
      */
     string media,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-link-referrerpolicy
      */
-    enum {'', 'no-referrer', 'no-referrer-when-downgrade', 'same-origin', 'origin', 'strict-origin', 'origin-when-cross-origin', 'strict-origin-when-cross-origin', 'unsafe-url'} referrerpolicy,
+    enum {
+      '',
+      'no-referrer',
+      'no-referrer-when-downgrade',
+      'same-origin',
+      'origin',
+      'strict-origin',
+      'origin-when-cross-origin',
+      'strict-origin-when-cross-origin',
+      'unsafe-url',
+    } referrerpolicy,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-link-rel
      * A space separated list of keywords. F.e. "next" or "license". See
@@ -88,4 +100,6 @@ final xhp class link extends SGMLStream\RootElement {
      * A MIME type string.
      */
     string type;
+
+  protected string $tagName = 'link';
 }

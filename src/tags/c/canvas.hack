@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<656492fa2d4ea8be2c3860fa19c8c0a0>>
+ * @generated SignedSource<<f8b09271fccd7bb8f1b992210de4cbba>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,10 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-canvas-element
  */
 final xhp class canvas extends SGMLStream\RootElement {
-  protected string $tagName = 'canvas';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-canvas-height
@@ -24,4 +23,6 @@ final xhp class canvas extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#attr-canvas-width
      */
     int width;
+
+  protected string $tagName = 'canvas';
 }

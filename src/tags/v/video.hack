@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<a630b9166757c1928816ec7fede7f5e9>>
+ * @generated SignedSource<<52d2b13c7ad641734a2c64223cc94ad4>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -11,10 +11,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-video-element
  */
 final xhp class video extends SGMLStream\RootElement {
-  protected string $tagName = 'video';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-media-autoplay
@@ -62,4 +61,6 @@ final xhp class video extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-width
      */
     int width;
+
+  protected string $tagName = 'video';
 }

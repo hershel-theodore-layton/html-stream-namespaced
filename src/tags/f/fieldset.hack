@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<922f14750f19478382362b8a8c254a91>>
+ * @generated SignedSource<<cf118b35261cc9d725ba549feb51f687>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -11,10 +11,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-fieldset-element
  */
 final xhp class fieldset extends SGMLStream\RootElement {
-  protected string $tagName = 'fieldset';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fieldset-disabled
@@ -30,4 +29,6 @@ final xhp class fieldset extends SGMLStream\RootElement {
      * Any name except for the empty string and isindex.
      */
     string name;
+
+  protected string $tagName = 'fieldset';
 }

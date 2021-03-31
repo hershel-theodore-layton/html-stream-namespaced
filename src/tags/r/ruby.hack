@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<cc5dc067e6282d8fc605f1575705a5ad>>
+ * @generated SignedSource<<eff128d7b355b72323c0fa4fcd1cf7f0>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-ruby-element
  */
 final xhp class ruby extends SGMLStream\RootElement {
-  protected string $tagName = 'ruby';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'ruby';
 }

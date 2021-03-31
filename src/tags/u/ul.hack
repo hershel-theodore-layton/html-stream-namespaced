@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<ba1f321baea293614949d9c3ea250059>>
+ * @generated SignedSource<<060800250285bf72a2fe138e4605577e>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-ul-element
  */
 final xhp class ul extends SGMLStream\RootElement {
-  protected string $tagName = 'ul';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'ul';
 }

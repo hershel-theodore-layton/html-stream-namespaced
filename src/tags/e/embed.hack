@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<9d4dca2a117a9195dce39e3f68d67f6b>>
+ * @generated SignedSource<<5e50262ce7a5c213c170a9c57cc84e0a>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,16 +13,14 @@ use namespace HTL\SGMLStream;
  * ```
  * Any other attribute that has no namespace (see prose).
  * ```
- * All attributes that do not contain a `:` are valid on this element and its
- * type is always mixed. If the typechecker rejects your HTML, edit the
- * definition of this tag, since it is always spec compliant to add more
- * non-namespaced attributes.
+ * All attributes that do not contain a `:` are valid on this element and its type is
+ * always mixed. If the typechecker rejects your HTML, edit the definition of this tag,
+ * since it is always spec compliant to add more non-namespaced attributes.
  */
 final xhp class embed extends SGMLStream\RootElement {
-  protected string $tagName = 'embed';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-height
@@ -42,4 +40,6 @@ final xhp class embed extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-width
      */
     int width;
+
+  protected string $tagName = 'embed';
 }

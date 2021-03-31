@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<6d77bc7350835186cafe745e2f1b10d5>>
+ * @generated SignedSource<<e7ed57ff7f2aad77a401b7d39a5c59b8>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -11,10 +11,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-select-element
  */
 final xhp class select extends SGMLStream\RootElement {
-  protected string $tagName = 'select';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-autocomplete
@@ -47,4 +46,6 @@ final xhp class select extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#attr-select-size
      */
     int size;
+
+  protected string $tagName = 'select';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<7d5ba340a2972d101d8c00c3d8053f74>>
+ * @generated SignedSource<<6241cee2188537c611528619369e3f56>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -11,15 +11,14 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-input-element
  */
 final xhp class input extends SGMLStream\RootElement {
-  protected string $tagName = 'input';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-input-accept
-     * A comma separated list of "audio/*", "video/*", "image/*", a valid MIME type string with no parameters, file extensions
-     * starting with a ".".
+     * A comma separated list of "audio/*", "video/*", "image/*", a valid MIME type
+     * string with no parameters, file extensions starting with a ".".
      */
     string accept,
     /**
@@ -38,8 +37,8 @@ final xhp class input extends SGMLStream\RootElement {
     SGMLStreamInterfaces\BooleanAttribute checked,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-dirname
-     * Any name that is not an empty string. The browser will implicitly append `.dir` in the urlencoded parameters sent to
-     * the server.
+     * Any name that is not an empty string. The browser will implicitly append `.dir` in
+     * the urlencoded parameters sent to the server.
      */
     string dirname,
     /**
@@ -59,7 +58,11 @@ final xhp class input extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fs-formenctype
      */
-    enum {'application/x-www-form-urlencoded', 'multipart/form-data', 'text/plain'} formenctype,
+    enum {
+      'application/x-www-form-urlencoded',
+      'multipart/form-data',
+      'text/plain',
+    } formenctype,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fs-formmethod
      */
@@ -70,7 +73,8 @@ final xhp class input extends SGMLStream\RootElement {
     SGMLStreamInterfaces\BooleanAttribute formnovalidate,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fs-formtarget
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For more see
+     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
+     * more see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string formtarget,
@@ -145,7 +149,30 @@ final xhp class input extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-input-type
      */
-    enum {'hidden', 'text', 'search', 'tel', 'url', 'email', 'password', 'date', 'month', 'week', 'time', 'datetime', 'number', 'range', 'color', 'checkbox', 'radio', 'file', 'submit', 'image', 'reset', 'button'} type,
+    enum {
+      'hidden',
+      'text',
+      'search',
+      'tel',
+      'url',
+      'email',
+      'password',
+      'date',
+      'month',
+      'week',
+      'time',
+      'datetime',
+      'number',
+      'range',
+      'color',
+      'checkbox',
+      'radio',
+      'file',
+      'submit',
+      'image',
+      'reset',
+      'button',
+    } type,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-input-value
      * Any text is allowed.
@@ -155,4 +182,6 @@ final xhp class input extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-width
      */
     int width;
+
+  protected string $tagName = 'input';
 }

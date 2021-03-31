@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<9747b979c93e7e5dcfff734b0d6f0382>>
+ * @generated SignedSource<<326d612b64a85616c0753b2091304881>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,14 +11,14 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-output-element
  */
 final xhp class output extends SGMLStream\RootElement {
-  protected string $tagName = 'output';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-output-for
-     * A set of unique space-separated tokens. Each of which is an id of an element in the same document.
+     * A set of unique space-separated tokens. Each of which is an id of an element in
+     * the same document.
      */
     string for,
     /**
@@ -31,4 +31,6 @@ final xhp class output extends SGMLStream\RootElement {
      * Any name except for the empty string and isindex.
      */
     string name;
+
+  protected string $tagName = 'output';
 }

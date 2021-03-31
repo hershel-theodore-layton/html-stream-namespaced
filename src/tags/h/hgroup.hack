@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c67100ed3e3e2ec2b45cae13f9e824b6>>
+ * @generated SignedSource<<f4c236171794afdac83775ed2963e99e>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-hgroup-element
  */
 final xhp class hgroup extends SGMLStream\RootElement {
-  protected string $tagName = 'hgroup';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'hgroup';
 }

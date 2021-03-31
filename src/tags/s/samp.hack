@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<d17a2cf4645f694f52cbdce5e1562804>>
+ * @generated SignedSource<<ee9dbdf4e2f3454d879497fe8d30d7a6>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-samp-element
  */
 final xhp class samp extends SGMLStream\RootElement {
-  protected string $tagName = 'samp';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'samp';
 }

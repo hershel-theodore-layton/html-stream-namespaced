@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c23b9b32d2e01591ce75f41ee9505a89>>
+ * @generated SignedSource<<a336511e67e3385ed239e900488fe84a>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,10 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-object-element
  */
 final xhp class object extends SGMLStream\RootElement {
-  protected string $tagName = 'object';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-object-data
@@ -32,7 +31,8 @@ final xhp class object extends SGMLStream\RootElement {
     string form,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-object-name
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For more see
+     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
+     * more see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string name,
@@ -45,4 +45,6 @@ final xhp class object extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-width
      */
     int width;
+
+  protected string $tagName = 'object';
 }

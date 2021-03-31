@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c4e8eeed9bde27f9c3e293ed46642cda>>
+ * @generated SignedSource<<dc0280bdeb41522b19ce2863cb810a75>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-menu-element
  */
 final xhp class menu extends SGMLStream\RootElement {
-  protected string $tagName = 'menu';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'menu';
 }

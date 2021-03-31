@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c320e24ef5fd2e3742a758da38236c44>>
+ * @generated SignedSource<<6502a7b9d8ee7ccf2dc36747cd4e5438>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-br-element
  */
 final xhp class br extends SGMLStream\RootElement {
-  protected string $tagName = 'br';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
+
+  protected string $tagName = 'br';
 }

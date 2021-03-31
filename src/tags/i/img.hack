@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<658090b8a859cae94e919ac2392038e9>>
+ * @generated SignedSource<<b1266724ab59db7085eef1689dcfc4f9>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -11,10 +11,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-img-element
  */
 final xhp class img extends SGMLStream\RootElement {
-  protected string $tagName = 'img';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-img-alt
@@ -44,10 +43,21 @@ final xhp class img extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-img-referrerpolicy
      */
-    enum {'', 'no-referrer', 'no-referrer-when-downgrade', 'same-origin', 'origin', 'strict-origin', 'origin-when-cross-origin', 'strict-origin-when-cross-origin', 'unsafe-url'} referrerpolicy,
+    enum {
+      '',
+      'no-referrer',
+      'no-referrer-when-downgrade',
+      'same-origin',
+      'origin',
+      'strict-origin',
+      'origin-when-cross-origin',
+      'strict-origin-when-cross-origin',
+      'unsafe-url',
+    } referrerpolicy,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-img-sizes
-     * Complex syntax requirement, see https://html.spec.whatwg.org/multipage/images.html#sizes-attribute.
+     * Complex syntax requirement, see
+     * https://html.spec.whatwg.org/multipage/images.html#sizes-attribute.
      */
     string sizes,
     /**
@@ -57,7 +67,8 @@ final xhp class img extends SGMLStream\RootElement {
     string src,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-img-srcset
-     * Any number of image candidate strings. See https://html.spec.whatwg.org/multipage/images.html#srcset-attribute for more
+     * Any number of image candidate strings. See
+     * https://html.spec.whatwg.org/multipage/images.html#srcset-attribute for more
      * information.
      */
     string srcset,
@@ -70,4 +81,6 @@ final xhp class img extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-width
      */
     int width;
+
+  protected string $tagName = 'img';
 }

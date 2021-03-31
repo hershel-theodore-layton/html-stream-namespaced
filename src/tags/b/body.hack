@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<a70ffd41a21483d41aad4880890bfacf>>
+ * @generated SignedSource<<6e06287a78a69e6bfee86fcb64a9fddb>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,10 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-body-element
  */
 final xhp class body extends SGMLStream\RootElement {
-  protected string $tagName = 'body';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#handler-window-onafterprint
@@ -80,4 +79,6 @@ final xhp class body extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#handler-window-onunload
      */
     string onunload;
+
+  protected string $tagName = 'body';
 }

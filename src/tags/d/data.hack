@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<25427fd8aeb5de87cc05881d1c99bd5b>>
+ * @generated SignedSource<<54ffd31cb41a888283558c04f932d3d8>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,14 +11,15 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-data-element
  */
 final xhp class data extends SGMLStream\RootElement {
-  protected string $tagName = 'data';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-data-value
      * Data in any machine-readable format.
      */
     string value;
+
+  protected string $tagName = 'data';
 }

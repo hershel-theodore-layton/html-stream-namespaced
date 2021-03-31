@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<d8ea943fa20229d5097521fdee3763d3>>
+ * @generated SignedSource<<0d68abac94546d5eb33dfb560706e307>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-tbody-element
  */
 final xhp class tbody extends SGMLStream\RootElement {
-  protected string $tagName = 'tbody';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'tbody';
 }

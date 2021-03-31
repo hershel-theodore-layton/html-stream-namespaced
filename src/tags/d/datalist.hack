@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<1642164b36d6fb33c60d7c06bdc60670>>
+ * @generated SignedSource<<dad806b1a5c561a57581468ebd12170c>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-datalist-element
  */
 final xhp class datalist extends SGMLStream\RootElement {
-  protected string $tagName = 'datalist';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'datalist';
 }

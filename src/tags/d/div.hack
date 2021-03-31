@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<93e087ac9055ffccf399c0d894459a20>>
+ * @generated SignedSource<<75aa45b773786a0a5c70cca0aee3b6e7>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-div-element
  */
 final xhp class div extends SGMLStream\RootElement {
-  protected string $tagName = 'div';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'div';
 }

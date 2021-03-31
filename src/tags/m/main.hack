@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c1f3ccf620f71eddac7e29676eac9d05>>
+ * @generated SignedSource<<8acd205ad7f303c5011d2c3d69f39565>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-main-element
  */
 final xhp class main extends SGMLStream\RootElement {
-  protected string $tagName = 'main';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'main';
 }

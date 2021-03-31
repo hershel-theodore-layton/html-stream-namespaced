@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<45af25a030c0dd75dbe8755f9861091a>>
+ * @generated SignedSource<<111ec71ab704606c37cc05fc1af1a427>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-head-element
  */
 final xhp class head extends SGMLStream\RootElement {
-  protected string $tagName = 'head';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'head';
 }

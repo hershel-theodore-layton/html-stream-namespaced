@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<df7f1ffc31a918a08cb5087da8e89643>>
+ * @generated SignedSource<<869d869150a1bddbb0d459f26f47bcae>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -11,10 +11,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-textarea-element
  */
 final xhp class textarea extends SGMLStream\RootElement {
-  protected string $tagName = 'textarea';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-autocomplete
@@ -27,8 +26,8 @@ final xhp class textarea extends SGMLStream\RootElement {
     int cols,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-dirname
-     * Any name that is not an empty string. The browser will implicitly append `.dir` in the urlencoded parameters sent to
-     * the server.
+     * Any name that is not an empty string. The browser will implicitly append `.dir` in
+     * the urlencoded parameters sent to the server.
      */
     string dirname,
     /**
@@ -74,4 +73,6 @@ final xhp class textarea extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#attr-textarea-wrap
      */
     enum {'hard', 'soft'} wrap;
+
+  protected string $tagName = 'textarea';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<90c7601004f5ab8a52a23a423f961730>>
+ * @generated SignedSource<<180e6a733eff0a4fb5ad3e6d1d02999c>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-html-element
  */
 final xhp class html extends SGMLStream\RootElement {
-  protected string $tagName = 'html';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'html';
 }

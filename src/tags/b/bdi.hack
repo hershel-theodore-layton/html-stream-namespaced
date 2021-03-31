@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<18c0835dcb40512f81ed57546d0f2fc1>>
+ * @generated SignedSource<<4a776b099f8b11f035b631437a7f199a>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-bdi-element
  */
 final xhp class bdi extends SGMLStream\RootElement {
-  protected string $tagName = 'bdi';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  protected string $tagName = 'bdi';
 }

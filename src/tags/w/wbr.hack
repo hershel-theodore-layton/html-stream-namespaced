@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<792fac73b8c2f3ef47bff1e8a4e9324d>>
+ * @generated SignedSource<<ed13e783f71a9da323a8beb9b5918c11>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,7 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-wbr-element
  */
 final xhp class wbr extends SGMLStream\RootElement {
-  protected string $tagName = 'wbr';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
+
+  protected string $tagName = 'wbr';
 }

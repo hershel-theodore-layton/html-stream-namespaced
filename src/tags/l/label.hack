@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<0eef3076197eaa107c8f4ca5a6f050f2>>
+ * @generated SignedSource<<76871f3eb147bb57b0bd793b200ef0bb>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,14 +11,15 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-label-element
  */
 final xhp class label extends SGMLStream\RootElement {
-  protected string $tagName = 'label';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-label-for
      * The id of a labelable element.
      */
     string for;
+
+  protected string $tagName = 'label';
 }

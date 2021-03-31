@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<d0940d963c533b60e23e8814f749f276>>
+ * @generated SignedSource<<6b4991d0cdc04e386ca59eb4bef5ff63>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -11,10 +11,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-track-element
  */
 final xhp class track extends SGMLStream\RootElement {
-  protected string $tagName = 'track';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-track-default
@@ -23,7 +22,13 @@ final xhp class track extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-track-kind
      */
-    enum {'subtitles', 'captions', 'descriptions', 'chapters', 'metadata'} kind,
+    enum {
+      'subtitles',
+      'captions',
+      'descriptions',
+      'chapters',
+      'metadata',
+    } kind,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-track-label
      * Any non empty string.
@@ -39,4 +44,6 @@ final xhp class track extends SGMLStream\RootElement {
      * A valid BCP 47 language tag.
      */
     string srclang;
+
+  protected string $tagName = 'track';
 }

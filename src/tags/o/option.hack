@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<fd3913a0464b4f03accbe91259a09c53>>
+ * @generated SignedSource<<5c5ce2c50b4b219863c7cf38f1c1d528>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -11,10 +11,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-option-element
  */
 final xhp class option extends SGMLStream\RootElement {
-  protected string $tagName = 'option';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-option-disabled
@@ -34,4 +33,6 @@ final xhp class option extends SGMLStream\RootElement {
      * Any text is allowed.
      */
     string value;
+
+  protected string $tagName = 'option';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<203ea142b50633c1736754a07e3964d0>>
+ * @generated SignedSource<<4d328d1a8879b7f0a58baf719e0d2189>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -11,10 +11,9 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
  * @see https://html.spec.whatwg.org/multipage/#the-form-element
  */
 final xhp class form extends SGMLStream\RootElement {
-  protected string $tagName = 'form';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-form-accept-charset
@@ -33,14 +32,19 @@ final xhp class form extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fs-enctype
      */
-    enum {'application/x-www-form-urlencoded', 'multipart/form-data', 'text/plain'} enctype,
+    enum {
+      'application/x-www-form-urlencoded',
+      'multipart/form-data',
+      'text/plain',
+    } enctype,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fs-method
      */
     enum {'dialog', 'get', 'post'} method,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-form-name
-     * A name which is not the empty string. It must be unique within the context of the current form.
+     * A name which is not the empty string. It must be unique within the context of the
+     * current form.
      */
     string name,
     /**
@@ -55,8 +59,11 @@ final xhp class form extends SGMLStream\RootElement {
     string rel,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fs-target
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For more see
+     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
+     * more see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string target;
+
+  protected string $tagName = 'form';
 }

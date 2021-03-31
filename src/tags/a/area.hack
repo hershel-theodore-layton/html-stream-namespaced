@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<2e851c0cc59d9ba0dfa20e03470da5a3>>
+ * @generated SignedSource<<2bde970ee9c7574454620ebedce5af99>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -11,10 +11,9 @@ use namespace HTL\SGMLStream;
  * @see https://html.spec.whatwg.org/multipage/#the-area-element
  */
 final xhp class area extends SGMLStream\RootElement {
-  protected string $tagName = 'area';
+
   use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
-
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-area-alt
@@ -44,7 +43,17 @@ final xhp class area extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hyperlink-referrerpolicy
      */
-    enum {'', 'no-referrer', 'no-referrer-when-downgrade', 'same-origin', 'origin', 'strict-origin', 'origin-when-cross-origin', 'strict-origin-when-cross-origin', 'unsafe-url'} referrerpolicy,
+    enum {
+      '',
+      'no-referrer',
+      'no-referrer-when-downgrade',
+      'same-origin',
+      'origin',
+      'strict-origin',
+      'origin-when-cross-origin',
+      'strict-origin-when-cross-origin',
+      'unsafe-url',
+    } referrerpolicy,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hyperlink-rel
      * A space separated list of keywords. F.e. "next" or "license". See
@@ -57,8 +66,11 @@ final xhp class area extends SGMLStream\RootElement {
     enum {'circle', 'default', 'poly', 'rect'} shape,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hyperlink-target
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For more see
+     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
+     * more see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string target;
+
+  protected string $tagName = 'area';
 }
