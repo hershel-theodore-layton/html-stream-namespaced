@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<76871f3eb147bb57b0bd793b200ef0bb>>
+ * @generated SignedSource<<7583dfd3451f3a2603b92a06aaa0443e>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-label-element
  */
-final xhp class label extends SGMLStream\RootElement {
+final xhp class label extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

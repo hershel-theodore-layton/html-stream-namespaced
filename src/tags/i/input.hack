@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<6241cee2188537c611528619369e3f56>>
+ * @generated SignedSource<<132c14e1742ee59768d0a9029db0b75a>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -10,9 +10,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-input-element
  */
-final xhp class input extends SGMLStream\RootElement {
+final xhp class input extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
   attribute
     /**

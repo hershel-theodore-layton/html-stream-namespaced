@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<84b78f246eb905794e9979e237330c5c>>
+ * @generated SignedSource<<908d66ff7fa7899cbb2aed8440c2c2e2>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-ins-element
  */
-final xhp class ins extends SGMLStream\RootElement {
+final xhp class ins extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

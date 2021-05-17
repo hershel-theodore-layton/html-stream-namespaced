@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<434a36cce4c9b086d8724a7359471497>>
+ * @generated SignedSource<<32ec3138e995053dcfec2b8fed6ac2a2>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-meter-element
  */
-final xhp class meter extends SGMLStream\RootElement {
+final xhp class meter extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

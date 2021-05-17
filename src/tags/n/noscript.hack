@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f1406980075f3be7ae1489ecf8b08f38>>
+ * @generated SignedSource<<ba465e635ab94f819d8bd20b9de7f9b9>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-noscript-element
  */
-final xhp class noscript extends SGMLStream\RootElement {
+final xhp class noscript extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'noscript';

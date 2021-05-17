@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<cbe31e1e46225af17e8941d7e1d10045>>
+ * @generated SignedSource<<36b3e65d39e5625ca931377d3fd087c3>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -10,9 +10,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-dialog-element
  */
-final xhp class dialog extends SGMLStream\RootElement {
+final xhp class dialog extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

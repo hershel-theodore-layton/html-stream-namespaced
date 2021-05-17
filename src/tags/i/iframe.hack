@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c4d2f09bb222860af8bdf5afcc8b949a>>
+ * @generated SignedSource<<11eed32422d8677995b129c6db4026a3>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -10,9 +10,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-iframe-element
  */
-final xhp class iframe extends SGMLStream\RootElement {
+final xhp class iframe extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

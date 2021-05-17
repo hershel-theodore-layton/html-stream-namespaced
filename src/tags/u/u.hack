@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<e0bc49b2c1cdf5a4c5177911c2713334>>
+ * @generated SignedSource<<a80422042c5ccb1f64d2b18e020b15b1>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-u-element
  */
-final xhp class u extends SGMLStream\RootElement {
+final xhp class u extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'u';

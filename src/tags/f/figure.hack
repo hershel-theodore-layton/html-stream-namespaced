@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<ecb9eb350590389f42b440d736590137>>
+ * @generated SignedSource<<efcd83e85bf67c9f748266723d03ac3e>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-figure-element
  */
-final xhp class figure extends SGMLStream\RootElement {
+final xhp class figure extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'figure';

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<869d869150a1bddbb0d459f26f47bcae>>
+ * @generated SignedSource<<e445a7eebc7c6ab3a0fdbb41194b731d>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -10,9 +10,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-textarea-element
  */
-final xhp class textarea extends SGMLStream\RootElement {
+final xhp class textarea extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

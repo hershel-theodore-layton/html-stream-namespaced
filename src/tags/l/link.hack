@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<d59612764c999756727471ce07d2321b>>
+ * @generated SignedSource<<c4fa38e105ce078b999378fbe1d4678d>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -10,9 +10,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-link-element
  */
-final xhp class link extends SGMLStream\RootElement {
+final xhp class link extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
   attribute
     /**

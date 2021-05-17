@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<fd69dedcd4a09b3b5db651faafdb915e>>
+ * @generated SignedSource<<fec38fe231f36ab72116bf625535b3bd>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-address-element
  */
-final xhp class address extends SGMLStream\RootElement {
+final xhp class address extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'address';

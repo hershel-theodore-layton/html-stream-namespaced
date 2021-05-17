@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<b3638b6a089f55d6bdf2956e8f0bae0c>>
+ * @generated SignedSource<<fc77a8c8f7be7e7c1aec839a67421641>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-footer-element
  */
-final xhp class footer extends SGMLStream\RootElement {
+final xhp class footer extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'footer';

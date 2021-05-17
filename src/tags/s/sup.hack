@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<b97972856a79d1667d105cd6d4db8a0a>>
+ * @generated SignedSource<<d929d6163297e44c0da755bc04ad554e>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-sup-element
  */
-final xhp class sup extends SGMLStream\RootElement {
+final xhp class sup extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'sup';

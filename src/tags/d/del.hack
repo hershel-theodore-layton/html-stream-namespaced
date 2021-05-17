@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<fda65d0bd6db7305ecd85eb375288d39>>
+ * @generated SignedSource<<9899009be14e9bdfc5ba8ef7c9cab294>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-del-element
  */
-final xhp class del extends SGMLStream\RootElement {
+final xhp class del extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

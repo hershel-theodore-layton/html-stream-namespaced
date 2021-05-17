@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<da4897e17b5df3cd852f88fb915306fe>>
+ * @generated SignedSource<<0626ce226d7dbd15c4c2a2f2f77e38c5>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-progress-element
  */
-final xhp class progress extends SGMLStream\RootElement {
+final xhp class progress extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

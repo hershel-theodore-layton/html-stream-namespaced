@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f8b09271fccd7bb8f1b992210de4cbba>>
+ * @generated SignedSource<<c6c3ce02c1d239f9713d9e2797e1ef39>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-canvas-element
  */
-final xhp class canvas extends SGMLStream\RootElement {
+final xhp class canvas extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

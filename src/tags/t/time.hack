@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<936be3d11ffbbb8dc0399086d745fc0d>>
+ * @generated SignedSource<<c379a75bf9f60ce06ec59fb19aac2988>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-time-element
  */
-final xhp class time extends SGMLStream\RootElement {
+final xhp class time extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**
