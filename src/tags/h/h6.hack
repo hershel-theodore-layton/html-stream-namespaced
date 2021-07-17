@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<a29b3125667d8a678079cea2f4a01129>>
+ * @generated SignedSource<<633b5d07c69bfa284450ce4379a7b848>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-h6-element
  */
-final xhp class h6 extends SGMLStream\RootElement {
+final xhp class h6 extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'h6';

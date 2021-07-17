@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<325a41d77bea1897cb6d20b957e400c0>>
+ * @generated SignedSource<<07c4a9f10a9d947dc86e4ca64116e7e7>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-dt-element
  */
-final xhp class dt extends SGMLStream\RootElement {
+final xhp class dt extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'dt';

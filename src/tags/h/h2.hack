@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<16a1a3dfd9f42e630cdff31f30564b69>>
+ * @generated SignedSource<<8cfc2704ffc6414bddf39f3f995afcb2>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-h2-element
  */
-final xhp class h2 extends SGMLStream\RootElement {
+final xhp class h2 extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'h2';

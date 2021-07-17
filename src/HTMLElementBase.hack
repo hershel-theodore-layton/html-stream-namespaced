@@ -2,15 +2,12 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<2ad9da92147eab2d9459bdb31f1d6f90>>
+ * @generated SignedSource<<3417d10a016a9adf25b82cb0b38996da>>
  */
 namespace HTL\HTMLStream;
-use namespace HTL\SGMLStreamInterfaces;
+use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
-/**
- * @deprecated Will be removed in the next breaking release.
- */
-trait GlobalHTMLAttributes {
+abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#the-accesskey-attribute

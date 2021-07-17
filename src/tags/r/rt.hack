@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<bdf2ba593072d6ea78d882744191744f>>
+ * @generated SignedSource<<9ce6062b071f78475b0ff9db242c102f>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-rt-element
  */
-final xhp class rt extends SGMLStream\RootElement {
+final xhp class rt extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'rt';

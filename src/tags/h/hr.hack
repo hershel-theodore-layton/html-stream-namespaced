@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<47d08960fa56dd649ba6dc919c56132a>>
+ * @generated SignedSource<<137e122b9e2c278bd7d7b60bc66672e5>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-hr-element
  */
-final xhp class hr extends SGMLStream\RootElement {
+final xhp class hr extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenTagOnly;
 
   protected string $tagName = 'hr';

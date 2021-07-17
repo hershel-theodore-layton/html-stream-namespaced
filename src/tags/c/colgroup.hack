@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<2ca9d497fccfd767986bc3f2a5fd089c>>
+ * @generated SignedSource<<682b93ed697c57dc27d912ed8c083664>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-colgroup-element
  */
-final xhp class colgroup extends SGMLStream\RootElement {
+final xhp class colgroup extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
   attribute
     /**

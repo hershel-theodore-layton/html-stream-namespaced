@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c0329b15f650f4141be221ea19a9500b>>
+ * @generated SignedSource<<759c8d7242614be940567721caa6ffc1>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -10,9 +10,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-script-element
  */
-final xhp class script extends SGMLStream\RootElement {
+final xhp class script extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTagsAndUnescapedContent;
   attribute
     /**

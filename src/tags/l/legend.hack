@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<4e7f6fd2b64b93ba9193712093f68ef3>>
+ * @generated SignedSource<<59ee0f59a29dbeb939fc2c77bc1212aa>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -10,9 +10,8 @@ use namespace HTL\SGMLStream;
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-legend-element
  */
-final xhp class legend extends SGMLStream\RootElement {
+final xhp class legend extends HTMLElementBase {
 
-  use GlobalHTMLAttributes;
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   protected string $tagName = 'legend';
