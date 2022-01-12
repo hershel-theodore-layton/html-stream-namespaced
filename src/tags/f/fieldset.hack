@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<bbb10f82b4417d658d05fcc0273da93b>>
+ * @generated SignedSource<<84e85e195ea7e759b6994556ca399e9e>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -13,6 +13,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class fieldset extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'fieldset';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fieldset-disabled

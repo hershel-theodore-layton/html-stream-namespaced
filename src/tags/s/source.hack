@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c6ebb3a0758bee1ce17060a428b9e54a>>
+ * @generated SignedSource<<a5370f7927b22b7d042c04996fe81f8b>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class source extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenTagOnly;
+
+  const string TAG_NAME = 'source';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-source-media

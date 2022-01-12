@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<68c52903b6fb209eaf7b627a88d290f3>>
+ * @generated SignedSource<<c7d61be7f5ea2b06c532a57454ede082>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -13,6 +13,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class button extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'button';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-disabled

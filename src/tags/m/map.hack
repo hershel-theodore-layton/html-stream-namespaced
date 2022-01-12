@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<8f757e3cd47ec38ebff6cfe46fa3ea11>>
+ * @generated SignedSource<<91e09d4d685b56356fbbf8d4a3ce30ab>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class map extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'map';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-map-name

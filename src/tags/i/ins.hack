@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<908d66ff7fa7899cbb2aed8440c2c2e2>>
+ * @generated SignedSource<<5dfb74034126e0c561b5d90e252aa509>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class ins extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'ins';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-mod-cite

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<9938233c3f33f2196dfc78b687b2329e>>
+ * @generated SignedSource<<bed28f23161a25bfdcb94eb6bb076247>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class output extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'output';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-output-for

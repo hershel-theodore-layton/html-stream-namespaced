@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<ff52c1e7d84b660730f0349c9c23c079>>
+ * @generated SignedSource<<18c94ebd69ca1bb06d7b4c32fd696c7c>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -13,6 +13,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class ol extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'ol';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-ol-reversed

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<adfcaa6ded49981f3420f3d25aa1bd2e>>
+ * @generated SignedSource<<e58d68e176d6a28ebbf6cdda1523875a>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class pre extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'pre';
 
   protected string $tagName = 'pre';
 }

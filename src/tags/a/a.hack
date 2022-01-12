@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c05d030bc09074bc19b3aec043468745>>
+ * @generated SignedSource<<8377c96c25bbf083688dbf937f24e299>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class a extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'a';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-hyperlink-download

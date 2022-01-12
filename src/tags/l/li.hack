@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<1ec2d0c54b4aac678ba0aa0e4481488d>>
+ * @generated SignedSource<<1b7635ba608b93f98d3f5690524ee8ad>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class li extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'li';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-li-value

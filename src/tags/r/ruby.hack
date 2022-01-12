@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<5515e7c917cf7347a5e5fedd6af7407d>>
+ * @generated SignedSource<<dabaaa9fa55589d6dd508def24db242f>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class ruby extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'ruby';
 
   protected string $tagName = 'ruby';
 }

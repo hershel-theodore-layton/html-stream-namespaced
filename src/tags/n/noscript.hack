@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<ba465e635ab94f819d8bd20b9de7f9b9>>
+ * @generated SignedSource<<0750cd1f99aa72c71dfd818c994fe4d8>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class noscript extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'noscript';
 
   protected string $tagName = 'noscript';
 }

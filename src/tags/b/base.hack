@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<d84f838e94e3c54d656ddff6a5066a69>>
+ * @generated SignedSource<<26de35a80c7ee6a3df8b0fcded6a39ef>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class base extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenTagOnly;
+
+  const string TAG_NAME = 'base';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-base-href

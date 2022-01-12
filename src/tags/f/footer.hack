@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<fc77a8c8f7be7e7c1aec839a67421641>>
+ * @generated SignedSource<<40e1083ebb6335f2b006ad6d26091d35>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class footer extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'footer';
 
   protected string $tagName = 'footer';
 }

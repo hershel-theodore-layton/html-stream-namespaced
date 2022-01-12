@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<682b93ed697c57dc27d912ed8c083664>>
+ * @generated SignedSource<<b8e60210e3d6718983304a49695abf4b>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class colgroup extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'colgroup';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-colgroup-span

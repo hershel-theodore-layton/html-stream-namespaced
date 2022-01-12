@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<9899009be14e9bdfc5ba8ef7c9cab294>>
+ * @generated SignedSource<<5cda2b53dcd9c8467936c1cc1724732c>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class del extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'del';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-mod-cite

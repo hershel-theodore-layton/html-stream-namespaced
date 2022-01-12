@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c4fa38e105ce078b999378fbe1d4678d>>
+ * @generated SignedSource<<b2c1d6676d078f00be234dcad382ad3f>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -13,6 +13,8 @@ use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 final xhp class link extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenTagOnly;
+
+  const string TAG_NAME = 'link';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-link-as

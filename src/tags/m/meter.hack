@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<32ec3138e995053dcfec2b8fed6ac2a2>>
+ * @generated SignedSource<<e6276c73f14baf9a0775877e1ffeab42>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class meter extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'meter';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-meter-high

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<78784e6da1b6c11aceec5ea5f5bb5630>>
+ * @generated SignedSource<<902e7d02e9f33afe61abf09f0c2a5e8a>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class span extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTags;
+
+  const string TAG_NAME = 'span';
 
   protected string $tagName = 'span';
 }

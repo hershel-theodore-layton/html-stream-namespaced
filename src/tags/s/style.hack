@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c5354fb216ce3e66fb1e5eda67e62531>>
+ * @generated SignedSource<<f82a8a25123059abf16d80f7536d26b4>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -13,6 +13,8 @@ use namespace HTL\SGMLStream;
 final xhp class style extends HTMLElementBase {
 
   use SGMLStream\ElementWithOpenAndCloseTagsAndUnescapedContent;
+
+  const string TAG_NAME = 'style';
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-style-media
