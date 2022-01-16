@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<bd7c6d58c7f6bfb763d0e069641b60d2>>
+ * @generated SignedSource<<8ff4b3e26ba93859d183d7958bd1243b>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -41,6 +41,4 @@ final xhp class meta extends HTMLElementBase {
      * Any name.
      */
     string name;
-
-  protected string $tagName = 'meta';
 }

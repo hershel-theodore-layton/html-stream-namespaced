@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<bb5830a62c4b73af7a34f95bb152da83>>
+ * @generated SignedSource<<fd513fc2b652068c5709aacf1ca65f53>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -62,6 +62,4 @@ final xhp class video extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-width
      */
     int width;
-
-  protected string $tagName = 'video';
 }

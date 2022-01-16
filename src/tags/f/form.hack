@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<480bac34b6e999f17b41684747aaa518>>
+ * @generated SignedSource<<32dc95f2c5fd98349a94e0e45969ee26>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -65,6 +65,4 @@ final xhp class form extends HTMLElementBase {
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string target;
-
-  protected string $tagName = 'form';
 }

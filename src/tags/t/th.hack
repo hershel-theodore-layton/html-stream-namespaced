@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<8b827f68ed347812f41c3623a433c387>>
+ * @generated SignedSource<<93fe8ced6a6379447c6abf1a8201d2da>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -39,6 +39,4 @@ final xhp class th extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-th-scope
      */
     enum {'col', 'colgroup', 'row', 'rowgroup'} scope;
-
-  protected string $tagName = 'th';
 }

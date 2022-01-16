@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<a5370f7927b22b7d042c04996fe81f8b>>
+ * @generated SignedSource<<d0532e60219fa247c64a2836ff56f998>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -45,6 +45,4 @@ final xhp class source extends HTMLElementBase {
      * A MIME type string.
      */
     string type;
-
-  protected string $tagName = 'source';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f618efffc22354c17516c16e8cbd24b7>>
+ * @generated SignedSource<<6a7242638a3c0a1d6309b7226b708d44>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -24,6 +24,4 @@ final xhp class progress extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-progress-max
      */
     float value;
-
-  protected string $tagName = 'progress';
 }

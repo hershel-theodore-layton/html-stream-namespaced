@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<84e85e195ea7e759b6994556ca399e9e>>
+ * @generated SignedSource<<796a5262668fe4d6fd44f5f3820819f3>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -30,6 +30,4 @@ final xhp class fieldset extends HTMLElementBase {
      * Any name except for the empty string and isindex.
      */
     string name;
-
-  protected string $tagName = 'fieldset';
 }

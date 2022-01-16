@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<f82a8a25123059abf16d80f7536d26b4>>
+ * @generated SignedSource<<4017a5911041ca1bf080ced4bd3dc5c3>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -22,6 +22,4 @@ final xhp class style extends HTMLElementBase {
      * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-media-query-list for more information.
      */
     string media;
-
-  protected string $tagName = 'style';
 }

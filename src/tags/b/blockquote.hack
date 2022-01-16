@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<2599a1a61cca00871fe37fe7b79eae21>>
+ * @generated SignedSource<<dd89d155cbbc0c2a6b758825aadced3d>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -21,6 +21,4 @@ final xhp class blockquote extends HTMLElementBase {
      * A URL potentially surrounded by spaces.
      */
     string cite;
-
-  protected string $tagName = 'blockquote';
 }

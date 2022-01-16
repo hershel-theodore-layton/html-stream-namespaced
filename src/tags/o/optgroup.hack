@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<b9a0a2b9063cdf6b56b103f19756f649>>
+ * @generated SignedSource<<d446901bfc9da3d9bddc6b375ec36365>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -25,6 +25,4 @@ final xhp class optgroup extends HTMLElementBase {
      * Any text is allowed.
      */
     string label;
-
-  protected string $tagName = 'optgroup';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<26de35a80c7ee6a3df8b0fcded6a39ef>>
+ * @generated SignedSource<<9b7415e99aa3e9b343343a2ddebad39c>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -28,6 +28,4 @@ final xhp class base extends HTMLElementBase {
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string target;
-
-  protected string $tagName = 'base';
 }

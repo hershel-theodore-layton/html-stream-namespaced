@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<1d5b7a92c2eaa3c156b46fda3c2fb5aa>>
+ * @generated SignedSource<<cdcb7b36eb3bc08afe2de57e72813d09>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -15,6 +15,4 @@ final xhp class div extends HTMLElementBase {
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   const string TAG_NAME = 'div';
-
-  protected string $tagName = 'div';
 }

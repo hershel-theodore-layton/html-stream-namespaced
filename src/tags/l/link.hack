@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<b2c1d6676d078f00be234dcad382ad3f>>
+ * @generated SignedSource<<595a1d88cc14387656e806ca90c48e54>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -101,6 +101,4 @@ final xhp class link extends HTMLElementBase {
      * A MIME type string.
      */
     string type;
-
-  protected string $tagName = 'link';
 }

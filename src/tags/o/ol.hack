@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<18c94ebd69ca1bb06d7b4c32fd696c7c>>
+ * @generated SignedSource<<fd67e38b652752c0cc58bda9c55196b5>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -28,6 +28,4 @@ final xhp class ol extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-ol-type
      */
     enum {'1', 'a', 'A', 'i', 'I'} type;
-
-  protected string $tagName = 'ol';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<91e09d4d685b56356fbbf8d4a3ce30ab>>
+ * @generated SignedSource<<1eaf90d8d2af087afa65db23507f974e>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -21,6 +21,4 @@ final xhp class map extends HTMLElementBase {
      * Any name.
      */
     string name;
-
-  protected string $tagName = 'map';
 }

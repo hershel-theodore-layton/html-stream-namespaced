@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<3cc142c52a6b453a27caafac2b4489f0>>
+ * @generated SignedSource<<c73a0bf2b744fdb6c5d2272c3143edf5>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -15,6 +15,4 @@ final xhp class template extends HTMLElementBase {
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   const string TAG_NAME = 'template';
-
-  protected string $tagName = 'template';
 }

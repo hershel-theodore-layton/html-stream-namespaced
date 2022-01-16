@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<bed28f23161a25bfdcb94eb6bb076247>>
+ * @generated SignedSource<<69fc0711e243ac9d9a5c4911b4aa3408>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -32,6 +32,4 @@ final xhp class output extends HTMLElementBase {
      * Any name except for the empty string and isindex.
      */
     string name;
-
-  protected string $tagName = 'output';
 }

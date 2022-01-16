@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<32ec2e1b5bec206a73e9b307c1b67c8f>>
+ * @generated SignedSource<<f5edc5713d0b4d80dc84e8760726bd18>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -26,6 +26,4 @@ final xhp class param extends HTMLElementBase {
      * Any text is allowed.
      */
     string value;
-
-  protected string $tagName = 'param';
 }

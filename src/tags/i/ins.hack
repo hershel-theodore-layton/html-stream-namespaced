@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<5dfb74034126e0c561b5d90e252aa509>>
+ * @generated SignedSource<<f13e31364df739aacececf24212e1b42>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -27,6 +27,4 @@ final xhp class ins extends HTMLElementBase {
      * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string-with-optional-time for more information.
      */
     string datetime;
-
-  protected string $tagName = 'ins';
 }

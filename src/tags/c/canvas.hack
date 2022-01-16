@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<926f33add85fb0b7ad52f27deae56020>>
+ * @generated SignedSource<<bf03de5e5faf041c4ecdd432e8d28b96>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -24,6 +24,4 @@ final xhp class canvas extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-canvas-width
      */
     int width;
-
-  protected string $tagName = 'canvas';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<c7d61be7f5ea2b06c532a57454ede082>>
+ * @generated SignedSource<<4f6d54b86116f648fa152a623dff2a39>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -67,6 +67,4 @@ final xhp class button extends HTMLElementBase {
      * Any text is allowed.
      */
     string value;
-
-  protected string $tagName = 'button';
 }

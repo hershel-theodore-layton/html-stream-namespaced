@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<b7400243528cebe10779559965fe6595>>
+ * @generated SignedSource<<803b6b8df21f7841253fafebe65dbd12>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -15,6 +15,4 @@ final xhp class strong extends HTMLElementBase {
   use SGMLStream\ElementWithOpenAndCloseTags;
 
   const string TAG_NAME = 'strong';
-
-  protected string $tagName = 'strong';
 }

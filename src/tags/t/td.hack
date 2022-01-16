@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<7fc3fbc4d9d3b43903edb895d45db8ec>>
+ * @generated SignedSource<<a2e39d6221c13f7d69ce26bb06a7e02e>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -30,6 +30,4 @@ final xhp class td extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-tdth-rowspan
      */
     int rowspan;
-
-  protected string $tagName = 'td';
 }

@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<b2c18251143bbf511d1f8034739559f3>>
+ * @generated SignedSource<<fece6402463400abc1502218035c7eee>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -15,6 +15,4 @@ final xhp class wbr extends HTMLElementBase {
   use SGMLStream\ElementWithOpenTagOnly;
 
   const string TAG_NAME = 'wbr';
-
-  protected string $tagName = 'wbr';
 }

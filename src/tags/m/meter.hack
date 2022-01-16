@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<e6276c73f14baf9a0775877e1ffeab42>>
+ * @generated SignedSource<<fc25dfc14d0861bbe60097499913008a>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -40,6 +40,4 @@ final xhp class meter extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-meter-value
      */
     float value;
-
-  protected string $tagName = 'meter';
 }

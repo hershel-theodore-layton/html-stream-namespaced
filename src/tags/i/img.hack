@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<8042933126309302ef0b655f4eedcbe7>>
+ * @generated SignedSource<<b1babbfe489c9910a97928200e8f62e4>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -82,6 +82,4 @@ final xhp class img extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-dim-width
      */
     int width;
-
-  protected string $tagName = 'img';
 }

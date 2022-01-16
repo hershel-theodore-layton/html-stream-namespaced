@@ -2,7 +2,7 @@
 /**
  * This file is generated. Do not modify it manually!
  *
- * @generated SignedSource<<fa515b3936ce55fbfde77dffc54177ef>>
+ * @generated SignedSource<<d58d4d8d951fd421bde51a584a6601d9>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -21,6 +21,4 @@ final xhp class q extends HTMLElementBase {
      * A URL potentially surrounded by spaces.
      */
     string cite;
-
-  protected string $tagName = 'q';
 }
