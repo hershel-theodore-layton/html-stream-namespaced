@@ -1,21 +1,12 @@
 // html-stream-namespaced is MIT licensed, see /LICENSE.
 /**
  * This file is generated. Do not modify it manually!
- *
- * @generated SignedSource<<f05a087ba96625a1461d01aabf067b03>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-embed-element
- * Quoting the HTML spec:
- * ```
- * Any other attribute that has no namespace (see prose).
- * ```
- * All attributes that do not contain a `:` are valid on this element and its type is
- * always mixed. If the typechecker rejects your HTML, edit the definition of this tag,
- * since it is always spec compliant to add more non-namespaced attributes.
  */
 final xhp class embed extends HTMLElementBase {
 

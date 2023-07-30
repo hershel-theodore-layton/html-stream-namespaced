@@ -1,8 +1,6 @@
 // html-stream-namespaced is MIT licensed, see /LICENSE.
 /**
  * This file is generated. Do not modify it manually!
- *
- * @generated SignedSource<<dd043d14235b9cad9dd3b92816eacd32>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -23,13 +21,7 @@ final xhp class track extends HTMLElementBase {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-track-kind
      */
-    enum {
-      'subtitles',
-      'captions',
-      'descriptions',
-      'chapters',
-      'metadata',
-    } kind,
+    enum {'subtitles', 'captions', 'descriptions', 'chapters', 'metadata'} kind,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-track-label
      * Any non empty string.

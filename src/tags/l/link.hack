@@ -1,8 +1,6 @@
 // html-stream-namespaced is MIT licensed, see /LICENSE.
 /**
  * This file is generated. Do not modify it manually!
- *
- * @generated SignedSource<<595a1d88cc14387656e806ca90c48e54>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
@@ -68,7 +66,8 @@ final xhp class link extends HTMLElementBase {
     /**
      * @see https://html.spec.whatwg.org/multipage/semantics.html#attr-link-media
      * A valid media query list. See
-     * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-media-query-list for more information.
+     * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-media-query-list
+     * for more information.
      */
     string media,
     /**

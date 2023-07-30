@@ -1,8 +1,6 @@
 // html-stream-namespaced is MIT licensed, see /LICENSE.
 /**
  * This file is generated. Do not modify it manually!
- *
- * @generated SignedSource<<38677447cd35703ffd03aae51395ac10>>
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
@@ -24,7 +22,8 @@ final xhp class del extends HTMLElementBase {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-mod-datetime
      * Valid date string with optional time. See
-     * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string-with-optional-time for more information.
+     * https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string-with-optional-time
+     * for more information.
      */
     string datetime;
 }
