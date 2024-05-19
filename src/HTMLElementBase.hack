@@ -6,6 +6,7 @@ namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 
 abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
+  const ctx INITIALIZATION_CTX = [];
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#the-accesskey-attribute
