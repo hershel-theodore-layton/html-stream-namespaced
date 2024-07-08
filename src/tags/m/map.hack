@@ -1,4 +1,4 @@
-// html-stream-namespaced is MIT licensed, see /LICENSE.
+/** html-stream-namespaced is MIT licensed, see /LICENSE. */
 /**
  * This file is generated. Do not modify it manually!
  */
