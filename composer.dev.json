@@ -7,7 +7,6 @@
     "hershel-theodore-layton/sgml-stream": "dev-master || ^2"
   },
   "require-dev": {
-    "hhvm/hhvm-autoload": "^3.2",
     "hershel-theodore-layton/portable-hack-ast-linters-server": "<1"
   },
   "scripts": {
