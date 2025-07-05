@@ -26,6 +26,10 @@ abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
       'characters',
     } autocapitalize,
     /**
+     * @see https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect
+     */
+    enum {'', 'on', 'off'} autocorrect,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-autofocus
      */
     SGMLStreamInterfaces\BooleanAttribute autofocus,
@@ -71,6 +75,10 @@ abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
      * least one character in length and without ascii whitespace.
      */
     string id,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute
+     */
+    SGMLStreamInterfaces\BooleanAttribute inert,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-inputmode
      */
@@ -125,6 +133,10 @@ abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
      */
     string nonce,
     /**
+     * @see https://html.spec.whatwg.org/multipage/popover.html#attr-popover
+     */
+    enum {'', 'auto', 'manual', 'hint'} popover,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#handler-onabort
      */
     string onabort,
@@ -132,6 +144,18 @@ abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
      * @see https://html.spec.whatwg.org/multipage/#handler-onauxclick
      */
     string onauxclick,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/webappapis.html#handler-onbeforeinput
+     */
+    string onbeforeinput,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/webappapis.html#handler-onbeforematch
+     */
+    string onbeforematch,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/webappapis.html#handler-onbeforetoggle
+     */
+    string onbeforetoggle,
     /**
      * @see https://html.spec.whatwg.org/multipage/#handler-onblur
      */
@@ -161,9 +185,21 @@ abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
      */
     string onclose,
     /**
+     * @see https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncommand
+     */
+    string oncommand,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncontextlost
+     */
+    string oncontextlost,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#handler-oncontextmenu
      */
     string oncontextmenu,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncontextlost
+     */
+    string oncontextrestored,
     /**
      * @see https://html.spec.whatwg.org/multipage/#handler-oncopy
      */
@@ -333,6 +369,10 @@ abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
      */
     string onscroll,
     /**
+     * @see https://html.spec.whatwg.org/multipage/webappapis.html#handler-onscrollend
+     */
+    string onscrollend,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#handler-onsecuritypolicyviolation
      */
     string onsecuritypolicyviolation,
@@ -416,5 +456,9 @@ abstract xhp class HTMLElementBase extends SGMLStream\RootElement {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-translate
      */
-    enum {'yes', 'no'} translate;
+    enum {'yes', 'no'} translate,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/interaction.html#attr-writingsuggestions
+     */
+    enum {'', 'true', 'false'} writingsuggestions;
 }

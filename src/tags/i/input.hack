@@ -21,6 +21,12 @@ final xhp class input extends HTMLElementBase {
      */
     string accept,
     /**
+     * @see https://html.spec.whatwg.org/multipage/input.html#attr-input-alpha
+     * If present, it indicates the CSS color's alpha component can be manipulated by the
+     * end user and does not have to be fully opaque.
+     */
+    SGMLStreamInterfaces\BooleanAttribute alpha,
+    /**
      * @see https://html.spec.whatwg.org/multipage/#attr-input-alt
      * Any text which is an adequate replacement for the missing image.
      */
@@ -34,6 +40,10 @@ final xhp class input extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-input-checked
      */
     SGMLStreamInterfaces\BooleanAttribute checked,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/input.html#attr-input-colorspace
+     */
+    enum {'limited-srgb', 'display-p3'} colorspace,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-dirname
      * Any name that is not an empty string. The browser will implicitly append `.dir` in
@@ -123,6 +133,15 @@ final xhp class input extends HTMLElementBase {
      * A string without a linefeed (\n) or carriage return (\r).
      */
     string placeholder,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/popover.html#attr-popovertarget
+     * A valid id of the popovertarget
+     */
+    string popovertarget,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction
+     */
+    enum {'toggle', 'show', 'hide'} popovertargetaction,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-input-readonly
      */
