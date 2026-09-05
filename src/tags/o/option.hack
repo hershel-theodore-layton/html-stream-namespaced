@@ -20,7 +20,7 @@ final xhp class option extends HTMLElementBase {
     SGMLStreamInterfaces\BooleanAttribute disabled,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-option-label
-     * Any non empty string.
+     * Any non-empty string.
      */
     string label,
     /**

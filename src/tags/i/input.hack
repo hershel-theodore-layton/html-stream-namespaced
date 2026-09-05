@@ -16,7 +16,7 @@ final xhp class input extends HTMLElementBase {
   attribute
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-input-accept
-     * A comma separated list of "audio/*", "video/*", "image/*", a valid MIME type
+     * A comma-separated list of "audio/*", "video/*", "image/*", a valid MIME type
      * string with no parameters, file extensions starting with a ".".
      */
     string accept,
@@ -47,7 +47,7 @@ final xhp class input extends HTMLElementBase {
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fe-dirname
      * Any name that is not an empty string. The browser will implicitly append `.dir` in
-     * the urlencoded parameters sent to the server.
+     * the URL-encoded parameters sent to the server.
      */
     string dirname,
     /**
@@ -56,7 +56,7 @@ final xhp class input extends HTMLElementBase {
     SGMLStreamInterfaces\BooleanAttribute disabled,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fae-form
-     * A valid id of a form element in the same tree.
+     * A valid ID of a form element in the same tree.
      */
     string form,
     /**
@@ -82,8 +82,8 @@ final xhp class input extends HTMLElementBase {
     SGMLStreamInterfaces\BooleanAttribute formnovalidate,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-fs-formtarget
-     * A valid browsing context name, for example, "__blank", "__self" or "__parent". For
-     * more see
+     * A valid browsing context name, for example, "_blank", "_self" or "_parent". For
+     * more information, see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
     string formtarget,
@@ -93,7 +93,7 @@ final xhp class input extends HTMLElementBase {
     int height,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-input-list
-     * The id of a datalist element.
+     * The ID of a datalist element.
      */
     string list,
     /**
@@ -135,7 +135,7 @@ final xhp class input extends HTMLElementBase {
     string placeholder,
     /**
      * @see https://html.spec.whatwg.org/multipage/popover.html#attr-popovertarget
-     * A valid id of the popovertarget
+     * A valid ID of the popovertarget.
      */
     string popovertarget,
     /**
