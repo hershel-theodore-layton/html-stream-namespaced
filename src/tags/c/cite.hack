@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:1f4eb048c20f278e892e'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-cite-element

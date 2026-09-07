@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:f453df897db02e8a2bb4'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-bdo-element

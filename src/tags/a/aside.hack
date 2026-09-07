@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:23277410776fdf0d6cdf'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-aside-element

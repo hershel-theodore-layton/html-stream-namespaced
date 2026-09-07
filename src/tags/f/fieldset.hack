@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:2c28a028c2da3f2db49a'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-fieldset-element

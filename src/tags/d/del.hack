@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:f5363dc83ba99405f3d9'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-del-element

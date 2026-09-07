@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:8e36e690f30a5cad218a'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-address-element

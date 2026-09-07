@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:c7e5bd9937c1f0481a6b'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-button-element

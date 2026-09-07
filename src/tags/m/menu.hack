@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:ae412db7bf19d5352c75'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-menu-element

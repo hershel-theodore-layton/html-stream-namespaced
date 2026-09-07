@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:471acf95c1b68ff516cd'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-kbd-element

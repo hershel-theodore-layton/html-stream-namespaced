@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:2cff2664f9c710c6306c'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-canvas-element

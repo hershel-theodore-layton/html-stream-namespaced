@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:76503d4a1da6ab7c8289'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-optgroup-element

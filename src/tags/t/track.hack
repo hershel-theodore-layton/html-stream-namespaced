@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:9b59cf8b28e06a70ccf3'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-track-element

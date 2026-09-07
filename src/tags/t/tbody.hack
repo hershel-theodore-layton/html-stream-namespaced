@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:92942fa6eec9f0c9a1e4'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-tbody-element

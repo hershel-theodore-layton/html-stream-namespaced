@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:5d093ddf625eaf64da7e'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-sub-element

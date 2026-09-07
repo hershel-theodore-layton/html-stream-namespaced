@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:ce9ca1719fb3dcd24c0b'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-select-element

@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:d8d0eb90d3c6e69e543f'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-tfoot-element

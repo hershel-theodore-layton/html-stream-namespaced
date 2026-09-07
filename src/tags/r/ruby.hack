@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:3f6ec0b9851a8d62462e'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-ruby-element

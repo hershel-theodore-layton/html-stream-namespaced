@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:6093ec9550e750416866'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-progress-element

@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:fb242a76ccd44b0841b0'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-col-element

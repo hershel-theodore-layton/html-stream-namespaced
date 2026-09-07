@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:a34f5d356446bd2122be'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-noscript-element

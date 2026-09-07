@@ -4,6 +4,9 @@
  */
 namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
+use type HTL\Pragma\Pragmas;
+
+<<file: Pragmas(vec['PhaLinters', 'digest:3633c0e908204f0e402a'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-audio-element
