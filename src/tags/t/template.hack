@@ -6,7 +6,7 @@ namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 use type HTL\Pragma\Pragmas;
 
-<<file: Pragmas(vec['PhaLinters', 'digest:f83beaa14f314118fe27'])>>
+<<file: Pragmas(vec['PhaLinters', 'digest:53001663079be44c84ee'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-template-element
@@ -17,6 +17,12 @@ final xhp class template extends HTMLElementBase {
 
   const string TAG_NAME = 'template';
   attribute
+    /**
+     * @see https://html.spec.whatwg.org/multipage/scripting.html#attr-template-for
+     * Allows for out of order html streaming. Finds an html processing instruction, f.e.
+     * <?here> and renders the children of the template there.
+     */
+    string for,
     /**
      * @see https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootmode
      */
@@ -36,5 +42,9 @@ final xhp class template extends HTMLElementBase {
     /**
      * @see https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootcustomelementregistry
      */
-    SGMLStreamInterfaces\BooleanAttribute shadowrootcustomelementregistry;
+    SGMLStreamInterfaces\BooleanAttribute shadowrootcustomelementregistry,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootslotassignment
+     */
+    enum {'named', 'manual'} shadowrootslotassignment;
 }

@@ -6,7 +6,7 @@ namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 use type HTL\Pragma\Pragmas;
 
-<<file: Pragmas(vec['PhaLinters', 'digest:bc30f3994a09f481a925'])>>
+<<file: Pragmas(vec['PhaLinters', 'digest:4e151a88e25200fd43d9'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-img-element
@@ -22,6 +22,10 @@ final xhp class img extends HTMLElementBase {
      * Any text which is an adequate replacement for the missing image.
      */
     string alt,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-controls
+     */
+    SGMLStreamInterfaces\BooleanAttribute controls,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-img-crossorigin
      */

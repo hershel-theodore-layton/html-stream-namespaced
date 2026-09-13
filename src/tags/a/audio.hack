@@ -6,7 +6,7 @@ namespace HTL\HTMLStream;
 use namespace HTL\{SGMLStream, SGMLStreamInterfaces};
 use type HTL\Pragma\Pragmas;
 
-<<file: Pragmas(vec['PhaLinters', 'digest:3633c0e908204f0e402a'])>>
+<<file: Pragmas(vec['PhaLinters', 'digest:bbfb96e30af835b6c4d6'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-audio-element
@@ -29,6 +29,10 @@ final xhp class audio extends HTMLElementBase {
      * @see https://html.spec.whatwg.org/multipage/#attr-media-crossorigin
      */
     enum {'anonymous', 'use-credentials'} crossorigin,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/media.html#attr-media-loading
+     */
+    enum {'lazy', 'eager'} loading,
     /**
      * @see https://html.spec.whatwg.org/multipage/#attr-media-loop
      */

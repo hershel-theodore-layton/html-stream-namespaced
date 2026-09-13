@@ -6,7 +6,7 @@ namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
 use type HTL\Pragma\Pragmas;
 
-<<file: Pragmas(vec['PhaLinters', 'digest:ad01758559c7a72c2a80'])>>
+<<file: Pragmas(vec['PhaLinters', 'digest:e733f62707022279d2eb'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-area-element
@@ -37,6 +37,11 @@ final xhp class area extends HTMLElementBase {
      * A URL potentially surrounded by spaces.
      */
     string href,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-hreflang
+     * A valid BCP 47 language tag.
+     */
+    string hreflang,
     /**
      * @see https://html.spec.whatwg.org/multipage/#ping
      * A space-separated list of HTTP or HTTPS URLs.
@@ -72,5 +77,10 @@ final xhp class area extends HTMLElementBase {
      * more information, see
      * https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword.
      */
-    string target;
+    string target,
+    /**
+     * @see https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-type
+     * A MIME type string.
+     */
+    string type;
 }
