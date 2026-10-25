@@ -6,14 +6,14 @@ namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
 use type HTL\Pragma\Pragmas;
 
-<<file: Pragmas(vec['PhaLinters', 'digest:e733f62707022279d2eb'])>>
+<<file: Pragmas(vec['PhaLinters', 'digest:ceb4603d232b1857fcea'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-area-element
  */
 final xhp class area extends HTMLElementBase {
 
-  use SGMLStream\ElementWithOpenAndCloseTags;
+  use SGMLStream\ElementWithOpenTagOnly;
 
   const string TAG_NAME = 'area';
   attribute

@@ -6,14 +6,14 @@ namespace HTL\HTMLStream;
 use namespace HTL\SGMLStream;
 use type HTL\Pragma\Pragmas;
 
-<<file: Pragmas(vec['PhaLinters', 'digest:da3336d9134f40cedbef'])>>
+<<file: Pragmas(vec['PhaLinters', 'digest:dfa115f556b6f81ec7f6'])>>
 
 /**
  * @see https://html.spec.whatwg.org/multipage/#the-embed-element
  */
 final xhp class embed extends HTMLElementBase {
 
-  use SGMLStream\ElementWithOpenAndCloseTags;
+  use SGMLStream\ElementWithOpenTagOnly;
 
   const string TAG_NAME = 'embed';
   attribute
